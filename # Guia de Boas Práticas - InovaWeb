@@ -1,0 +1,34 @@
+# guia-boas-praticas-inovaweb
+
+Manual de boas práticas digitais desenvolvido para clientes da agência.
+Mayara Gabrielly Alves Santos
+O versionamento é o processo de registrar, acompanhar e gerenciar as alterações feitas em arquivos e códigos de software ao longo do tempo, garantindo segurança, histórico e facilidade no trabalho em equipe.
+
+O que é e por que usar?
+
+• Controle e segurança: Permite voltar a qualquer ponto anterior do projeto caso algo dê errado ou um erro (bug) seja introduzido.
+• Trabalho em equipe: Evita que duas pessoas sobrescribam o trabalho uma da outra ao mexer nos mesmos arquivos.
+• Rastreabilidade: Mostra quem alterou o quê, quando e por quê.
+
+Principais Conceitos do Git
+
+O Git é o sistema de controle de versão distribuído mais utilizado no mundo. Ele funciona de forma local e remota:
+• Repositório: O local (pasta ou servidor) onde o projeto e todo o seu histórico ficam armazenados.
+• Commit: O "snapshot" (foto) que salva as alterações atuais no seu histórico local.
+• Branch (Ramificação): Uma linha de desenvolvimento independente que permite criar novas funcionalidades sem mexer no código principal.
+• Push / Pull: Envia (push) suas alterações locais para um repositório remoto (como o GitHub) ou baixa (pull) as atualizações feitas por outras pessoas.
+
+Comandos Essenciais do Git
+
+• git init ou git clone: Inicia um repositório novo ou baixa um existente.
+• git status: Mostra o estado atual dos arquivos (quais foram modificados ou adicionados).
+• git add .: Prepara os arquivos modificados para serem salvos.
+• git commit -m "mensagem": Salva oficialmente as alterações no histórico com uma descrição.
+• git branch / git checkout: Cria ou alterna entre branches.
+
+Versionamento Semântico (SemVer)
+
+Para definir versões de software, bibliotecas ou APIs de forma clara, utiliza-se o padrão MAJOR.MINOR.PATCH (exemplo: v2.4.7):
+• MAJOR (Primeiro número): Incrementado quando há mudanças que quebram a compatibilidade com versões anteriores (ex: 1.0.0 para 2.0.0).
+• MINOR (Número do meio): Incrementado quando novas funcionalidades são adicionadas, mantendo a compatibilidade.
+• PATCH (Último número): Incrementado quando são feitas correções de bugs ou ajustes menores que não alteram a interface.
